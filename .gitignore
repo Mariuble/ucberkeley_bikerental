@@ -1,3 +1,7 @@
+# Project specific
+models/
+predictions/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
