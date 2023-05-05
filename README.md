@@ -9,6 +9,7 @@ There are two main methods to run the code:
 
 (1) You can either go through the notebooks and run through each model.  
 - Make sure to set up your environment before running the notebooks, I have not provided an environment or container for this.
+- Each notebook (regression, and classification) splits the train and test data themselves before performing predictions.
 
 (2) You can run the ./train_and_test.sh script in the /scripts directory.
 - This approach only implements the fine-tuned gradient boosting regressor algorithm to avoid rewriting the whole notebook again.
